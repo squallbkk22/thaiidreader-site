@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Thai ID Reader – Support</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="icon.png">
+<style>
+:root{--bg:#F5F7F6;--card:#FFFFFF;--text:#16211D;--muted:#5B6B65;--line:#DDE5E1;--accent:#047857;--accent-soft:#E3F4EC;--warn:#9A5B00;--warn-soft:#FFF4E0}
+@media (prefers-color-scheme:dark){:root{--bg:#0E1513;--card:#16201D;--text:#E6EEEA;--muted:#9AABA4;--line:#26332F;--accent:#34D399;--accent-soft:#12312A;--warn:#F5B451;--warn-soft:#33270F}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans Thai",Sarabun,sans-serif}
+main{max-width:760px;margin:0 auto;padding:32px 16px 64px}
+header{display:flex;gap:16px;align-items:center;margin-bottom:8px}
+header img{width:64px;height:64px;border-radius:15px;flex:none}
+h1{font-size:1.7rem;line-height:1.25;margin:0}
+.sub{color:var(--muted);margin:2px 0 0}
+nav{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0 28px}
+nav a{padding:6px 14px;border:1px solid var(--line);border-radius:999px;color:var(--text);text-decoration:none;font-size:.95rem;background:var(--card)}
+nav a.on{background:var(--accent);border-color:var(--accent);color:#fff}
+section{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:4px 22px 18px;margin-bottom:18px}
+h2{font-size:1.2rem;margin:20px 0 6px}
+h3{font-size:1.02rem;margin:18px 0 4px}
+p,li{margin:6px 0}
+ul,ol{padding-left:22px}
+a{color:var(--accent)}
+.key{background:var(--accent-soft);border-radius:12px;padding:14px 18px;margin:18px 0}
+.key strong{display:block;margin-bottom:4px}
+.warn{background:var(--warn-soft);color:var(--text);border-left:4px solid var(--warn);border-radius:8px;padding:10px 14px;margin:12px 0}
+code{background:var(--accent-soft);padding:1px 6px;border-radius:5px;font-size:.92em}
+.lang{font-size:.8rem;font-weight:700;letter-spacing:.06em;color:var(--muted);text-transform:uppercase;margin-top:18px}
+footer{color:var(--muted);font-size:.9rem;text-align:center;margin-top:28px}
+</style>
+
+</head>
+<body>
+<main>
+<header>
+  <img src="icon.png" alt="">
+  <div>
+    <h1>Thai ID Reader</h1>
+    <p class="sub">Support · ช่วยเหลือ</p>
+  </div>
+</header>
+<nav>
+  <a href="#en" class="on">English</a>
+  <a href="#th">ภาษาไทย</a>
+  <a href="privacy.html">Privacy Policy</a>
+</nav>
+
+<section id="en">
+  <p class="lang">English</p>
+  <p>Thai ID Reader reads a Thai national ID card on your iPad through a USB-C smart card reader, shows the card details, and tells you whether the card has expired. Everything stays on your iPad.</p>
+
+  <h2>What you need</h2>
+  <ul>
+    <li>An iPad with a <strong>USB-C</strong> port, running iPadOS 17 or later</li>
+    <li>A USB smart card reader that is <strong>CCID compliant</strong> (check the product specifications for "CCID"). A USB-A reader works with a USB-C adapter.</li>
+    <li>A Thai national ID card with a chip</li>
+  </ul>
+  <p>Readers that only work through their own app or a Bluetooth connection are not supported.</p>
+
+  <h2>How to read a card</h2>
+  <ol>
+    <li>Plug the reader into your iPad. Its name appears in the <em>Reader</em> section.</li>
+    <li>Insert the ID card chip first, with the chip facing the reader's contacts.</li>
+    <li>Choose whether to <em>Include photo</em> (the photo takes a few seconds longer).</li>
+    <li>Tap <em>Read card</em>.</li>
+  </ol>
+  <p>The ID number is partly hidden; tap <em>Show</em> to see it in full. The coloured badge shows whether the card is valid, expiring within 90 days, expired, or a lifetime card.</p>
+
+  <h2>Try it without a reader</h2>
+  <p>Turn on <em>Demo mode</em>, pick a sample card, and tap <em>Read card</em>. Demo cards are made-up and cannot be saved.</p>
+
+  <h2>Troubleshooting</h2>
+  <h3>"No reader connected"</h3>
+  <p>Unplug the reader and plug it in again. Try a different cable or adapter. If the reader still does not appear, it is probably not CCID compliant.</p>
+  <h3>"No readable card in the reader"</h3>
+  <p>Check the card is pushed all the way in, chip first and facing the right way. Clean the chip gently with a dry cloth.</p>
+  <h3>"Card rejected step 'select applet'"</h3>
+  <p>The inserted card is not a Thai national ID card, or its chip is damaged.</p>
+  <h3>"Check digit doesn't match"</h3>
+  <p>The read may have been interrupted. Remove the card and read it again.</p>
+  <h3>Thai text looks garbled</h3>
+  <p>Please email me the reader model and a screenshot with personal details covered.</p>
+
+  <h2>Your data</h2>
+  <p>The app never connects to the internet. Saved data stays only on your iPad and is excluded from backups. See the <a href="privacy.html">Privacy Policy</a> for details.</p>
+
+  <h2>Contact</h2>
+  <p>Email <a href="mailto:support@niyamangkoon.com">support@niyamangkoon.com</a> with your iPad model, iPadOS version, card reader brand and model, and what happened. <strong>Please do not send a photo of your ID card or your ID number.</strong></p>
+</section>
+
+<section id="th">
+  <p class="lang">ภาษาไทย</p>
+  <p>Thai ID Reader อ่านบัตรประจำตัวประชาชนบน iPad ผ่านเครื่องอ่านบัตรแบบ USB-C แสดงรายละเอียดบัตร และบอกว่าบัตรหมดอายุหรือไม่ ข้อมูลทั้งหมดอยู่บน iPad ของคุณ</p>
+
+  <h2>สิ่งที่ต้องใช้</h2>
+  <ul>
+    <li>iPad ที่มีพอร์ต <strong>USB-C</strong> และใช้ iPadOS 17 ขึ้นไป</li>
+    <li>เครื่องอ่านบัตรสมาร์ตการ์ดแบบ USB ที่รองรับมาตรฐาน <strong>CCID</strong> (ดูคำว่า "CCID" ในสเปกสินค้า) เครื่องอ่านแบบ USB-A ใช้ได้ผ่านหัวแปลง USB-C</li>
+    <li>บัตรประจำตัวประชาชนแบบมีชิป</li>
+  </ul>
+  <p>ไม่รองรับเครื่องอ่านที่ต้องใช้แอปของผู้ผลิตเอง หรือเชื่อมต่อผ่านบลูทูธเท่านั้น</p>
+
+  <h2>วิธีอ่านบัตร</h2>
+  <ol>
+    <li>เสียบเครื่องอ่านบัตรเข้ากับ iPad ชื่อเครื่องอ่านจะแสดงในส่วน <em>Reader</em></li>
+    <li>เสียบบัตรโดยให้ด้านชิปเข้าก่อน และหันชิปเข้าหาหน้าสัมผัสของเครื่องอ่าน</li>
+    <li>เลือกว่าจะ <em>Include photo</em> หรือไม่ (การอ่านรูปใช้เวลานานขึ้นไม่กี่วินาที)</li>
+    <li>แตะ <em>Read card</em></li>
+  </ol>
+  <p>เลขประจำตัวประชาชนจะถูกซ่อนบางส่วน แตะ <em>Show</em> เพื่อดูทั้งหมด ป้ายสีจะบอกว่าบัตรยังใช้ได้ ใกล้หมดอายุภายใน 90 วัน หมดอายุแล้ว หรือเป็นบัตรตลอดชีพ</p>
+
+  <h2>ทดลองใช้โดยไม่มีเครื่องอ่าน</h2>
+  <p>เปิด <em>Demo mode</em> เลือกบัตรตัวอย่าง แล้วแตะ <em>Read card</em> บัตรตัวอย่างเป็นข้อมูลสมมติและไม่สามารถบันทึกได้</p>
+
+  <h2>การแก้ไขปัญหา</h2>
+  <h3>"No reader connected"</h3>
+  <p>ถอดเครื่องอ่านแล้วเสียบใหม่ ลองเปลี่ยนสายหรือหัวแปลง หากยังไม่พบเครื่องอ่าน เครื่องอ่านอาจไม่รองรับมาตรฐาน CCID</p>
+  <h3>"No readable card in the reader"</h3>
+  <p>ตรวจสอบว่าเสียบบัตรสุด ด้านชิปเข้าก่อนและหันถูกด้าน เช็ดชิปเบา ๆ ด้วยผ้าแห้ง</p>
+  <h3>"Card rejected step 'select applet'"</h3>
+  <p>บัตรที่เสียบไม่ใช่บัตรประจำตัวประชาชน หรือชิปของบัตรเสียหาย</p>
+  <h3>"Check digit doesn't match"</h3>
+  <p>การอ่านอาจถูกขัดจังหวะ ให้ถอดบัตรแล้วอ่านใหม่อีกครั้ง</p>
+  <h3>ภาษาไทยแสดงผลผิดเพี้ยน</h3>
+  <p>กรุณาอีเมลรุ่นเครื่องอ่านบัตร และภาพหน้าจอที่ปิดข้อมูลส่วนตัวแล้ว</p>
+
+  <h2>ข้อมูลของคุณ</h2>
+  <p>แอปไม่เชื่อมต่ออินเทอร์เน็ต ข้อมูลที่บันทึกอยู่บน iPad ของคุณเท่านั้นและไม่ถูกรวมในการสำรองข้อมูล ดูรายละเอียดใน<a href="privacy.html">นโยบายความเป็นส่วนตัว</a></p>
+
+  <h2>ติดต่อ</h2>
+  <p>อีเมล <a href="mailto:support@niyamangkoon.com">support@niyamangkoon.com</a> พร้อมแจ้งรุ่น iPad เวอร์ชัน iPadOS ยี่ห้อและรุ่นเครื่องอ่านบัตร และปัญหาที่พบ <strong>กรุณาอย่าส่งรูปบัตรประชาชนหรือเลขประจำตัวประชาชนของคุณ</strong></p>
+</section>
+
+<footer>© 2026 Seri Niyamangkoon · <a href="privacy.html">Privacy Policy</a></footer>
+</main>
+</body>
+</html>
